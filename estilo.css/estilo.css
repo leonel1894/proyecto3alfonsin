@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header .hero {
+  background-image: url(../img/pizzaportada.jpg);
+  background-position: top;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 50px;
+}
+header .titulo {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding: 4px;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 75%;
+  height: 100%;
+  transition: all 0.5s;
+  font-size: 15px;
+}
+.card .card__img {
+  max-width: 100%;
+}
+.card .card__titulo {
+  font-size: 20px;
+  padding-top: 5px;
+  margin-top: 5px;
+}
+.card .card__importe {
+  font-size: 15px;
+}
+.card .card__boton {
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 5px;
+  color: white;
+  background-color: black;
+}
+.card:hover {
+  transform: scale(1.1) translateY(2px);
+}
+
+footer {
+  height: 33vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+footer .boxubicacion {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+footer .boxredes {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}/*# sourceMappingURL=estilo.css.map */
