@@ -1,5 +1,4 @@
 .card {
-
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 30px;
     overflow: hidden;
@@ -16,29 +15,28 @@
         max-width: 100%;
     }
     
-    .card__titulo{
+    .card__titulo {
         font-size: 20px;
         padding-top: 5px;
         margin-top: 5px;
     }
     
-    .card__importe{
+    .card__importe {
         font-size: 15px;
     }
     
-    .card__boton{
+    .card__boton {
         border-radius: 10px;
         padding: 5px;
         margin-bottom: 5px;
-        color:white;
+        color: white;
         background-color: black;
-        
-    
     }
 
     &:hover {
         transform: scale(1.1) translateY(2px);
-    
     }
-
 }
+
+
+

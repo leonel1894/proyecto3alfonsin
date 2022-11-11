@@ -60,6 +60,21 @@ header .titulo {
   transform: scale(1.1) translateY(2px);
 }
 
+.boxform {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.boxform .boxform_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 footer {
   height: 33vh;
   width: 100%;
