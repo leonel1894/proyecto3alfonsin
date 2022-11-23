@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +18,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-dark bg-gradient">
             <div class="container-fluid">
-                <a class="navbar-brand text-light" href="#">Lo de Toni</a>
+                <a class="navbar-brand text-light" href="#">LO DE TONI</a>
                 <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -25,26 +26,27 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link text-light" href="../index.html">Inicio</a>
-                        <a class="nav-link text-light active" aria-current="page" href="#">Pizzas</a>
-                        <a class="nav-link text-light" href="../page/empanadas.html">Empanadas</a>
-                        <a class="nav-link text-light" href="../page/promos.html">Promos</a>
-                        <a class="nav-link text-light" href="../page/conocenos.html">Conocenos</a>
+                        <a class="nav-link text-light" href="../index.html">INICIO</a>
+                        <a class="nav-link text-light active" aria-current="page" href="#">PIZZAS</a>
+                        <a class="nav-link text-light" href="../page/empanadas.html">EMPANADAS</a>
+                        <a class="nav-link text-light" href="../page/promos.html">COMBOS</a>
+                        <a class="nav-link text-light" href="../page/conocenos.html">NOSOTROS</a>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
-    <main>
-        <div class="d-flex align-items-center justify-content-center bg-light">
-            <h1>Lo de Toni</h1>
+    <main class="container">
+        <div class="d-flex align-items-center justify-content-center flex-column">
+            <h1 class="fw-bold">LO DE TONI</h1>
+            <h2>PIZZAS</h2>
         </div>
-        <section class="container row ">
-            <h2>Pizzas</h2>
+        <section class="row">
             <article class="col-md-4 mt-5 d-flex align-items-center justify-content-center ">
                 <div class="card">
                     <h3 class="card__titulo">Napolitana</h3>
-                    <img class="card__img" src="../img/pizzanapolitana.jpg" alt="pizza">
+                    <img class="card__img" src="../img/pizzanapolitana.jpg" alt="pizza napolitana">
+                    <p class="card__texto">Tomate, mozzarella, hojas de albahaca fresca y aceite de oliva</p>
                     <h4 class="card__importe">$790</h4>
                     <button class="card__boton">Comprar</button>
                 </div>
@@ -52,19 +54,50 @@
             <article class="col-md-4 mt-5 d-flex align-items-center justify-content-center">
                 <div class="card">
                     <h3 class="card__titulo">Peperoni</h3>
-                    <img class="card__img" src="../img/pizzapeperoni.jpg" alt="pizza">
+                    <img class="card__img" src="../img/pizzapeperoni.jpg" alt="pizza de peperoni">
+                    <p class="card__texto">Pepperoni, carne molida, jamón, chorizo, pimiento, cebolla, champiñones,
+                        aceitunas, extra queso.</p>
                     <h4 class="card__importe">$810</h4>
                     <button class="card__boton">Comprar</button>
                 </div>
             </article>
             <article class="col-md-4 mt-5 d-flex align-items-center justify-content-center">
                 <div class="card">
-                    <h3 class="card__titulo">Muzarella</h3>
-                    <img class="card__img" src="../img/pizzamuzzarella.jpg" alt="pizza">
+                    <h3 class="card__titulo">Muzzarella</h3>
+                    <img class="card__img" src="../img/pizzamuzzarella.jpg" alt="pizza de muzzarella">
+                    <p class="card__texto">Queso muzzarella, salsa de tomate y aceitunas.</p>
                     <h4 class="card__importe">$740</h4>
                     <button class="card__boton">Comprar</button>
                 </div>
             </article>
+        </section>
+        <section class="row mb-5">
+            <article class="col-md-4 mt-5 d-flex align-items-center justify-content-center ">
+                <div class="card">
+                    <h3 class="card__titulo">Provolone</h3>
+                    <img class="card__img" src="../img/pizzaprovolone.jpg" alt="pizza de provolone">
+                    <p class="card__texto">Queso muzzarella, queso provolone, aceitunas y salsa de tomate.</p>
+                    <h4 class="card__importe">$790</h4>
+                    <button class="card__boton">Comprar</button>
+                </div>
+            </article>
+            <article class="col-md-4 mt-5 d-flex align-items-center justify-content-center">
+                <div class="card">
+                    <h3 class="card__titulo">Roquefort</h3>
+                    <img class="card__img" src="../img/pizzaroquefort.jpg" alt="pizza de roquefort">
+                    <p class="card__texto">Queso muzzarella, queso roquefort, aceitunas y salsa de tomate.</p>
+                    <h4 class="card__importe">$820</h4>
+                    <button class="card__boton">Comprar</button>
+                </div>
+            </article>
+            <article class="col-md-4 mt-5 d-flex align-items-center justify-content-center">
+                <div class="card">
+                    <h3 class="card__titulo">Fugazzeta</h3>
+                    <img class="card__img" src="../img/pizzafugazzeta.jpg" alt="pizza fugazzeta">
+                    <p class="card__texto">Queso muzzarella, cebolla y salsa de tomate.</p>
+                    <h4 class="card__importe">$780</h4>
+                    <button class="card__boton">Comprar</button>
+                </div>
             </article>
         </section>
     </main>

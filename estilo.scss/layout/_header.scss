@@ -1,16 +1,12 @@
-header{
+header {
     .hero {
         background-image: url(../img/pizzaportada.jpg);
         background-position: top;
         background-size: cover;
         height: 100vh;
-        display: flex;
-        justify-content: end;
-        align-items: center;
-        padding-right: 50px;
     }
+
     .titulo {
-        background-color: black;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -19,5 +15,4 @@ header{
     }
 
 
-} 
-
+}

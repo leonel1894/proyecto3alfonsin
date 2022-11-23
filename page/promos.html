@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="../estilo.css/estilo.css">
-    <title>Lo de Toni - Promos</title>
+    <title>Lo de Toni - Combos</title>
     <meta name="description" content="Las mejores promos">
     <meta name="keywords" content="Pizza, Empanadas, Promociones, Pizzeria, Restaurantes">
 </head>
@@ -17,7 +18,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-dark bg-gradient">
             <div class="container-fluid">
-                <a class="navbar-brand text-light" href="#">Lo de Toni</a>
+                <a class="navbar-brand text-light" href="#">LO DE TONI</a>
                 <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -25,45 +26,81 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link text-light active" aria-current="page" href="../index.html">Inicio</a>
-                        <a class="nav-link text-light" href="../page/pizzas.html">Pizzas</a>
-                        <a class="nav-link text-light" href="../page/empanadas.html">Empanadas</a>
-                        <a class="nav-link text-light active" aria-current="page" href="#">Promos</a>
-                        <a class="nav-link text-light" href="../page/conocenos.html">Conocenos</a>
+                        <a class="nav-link text-light active" aria-current="page" href="../index.html">INICIO</a>
+                        <a class="nav-link text-light" href="../page/pizzas.html">PIZZAS</a>
+                        <a class="nav-link text-light" href="../page/empanadas.html">EMPANADAS</a>
+                        <a class="nav-link text-light active" aria-current="page" href="#">COMBOS</a>
+                        <a class="nav-link text-light" href="../page/conocenos.html">NOSOTROS</a>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
-    <main>
-        <div class="d-flex align-items-center justify-content-center bg-light">
-            <h1>Lo de Toni</h1>
+    <main class="container">
+        <div class="d-flex align-items-center justify-content-center flex-column">
+            <h1 class="fw-bold">LO DE TONI</h1>
+            <h2>COMBOS</h2>
         </div>
-        <section class="container row ">
-            <h2>Promos!!</h2>
-            <article class="col-md-4 mt-5 d-flex align-items-center justify-content-center ">
-                <div class="card">
-                    <h3 class="card__titulo">2 Pizzas</h3>
-                    <img class="card__img" src="../img/promouno.jpg" alt="pizza">
-                    <h4 class="card__importe">$999</h4>
-                    <button class="card__boton">Comprar</button>
+        <section class="row">
+            <article class="col-md-6 mt-5 mb-5 d-flex align-items-center justify-content-center">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../img/empanadascuatro.jpg" class="d-block w-100" alt="elaboracion de empanadas">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/promocuatro.jpg" class="d-block w-100" alt="tres pizzas en sus cajas">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/empanadasdos.jpg" class="d-block w-100" alt="relleno de empanadas">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/promocinco.jpg" class="d-block w-100" alt="tres pizzas">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </article>
-            <article class="col-md-4 mt-5 d-flex align-items-center justify-content-center">
-                <div class="card">
-                    <h3 class="card__titulo">Pizza + Empanadas</h3>
-                    <img class="card__img" src="../img/promodos.jpg" alt="pizza y empanadas">
-                    <h4 class="card__importe">$899</h4>
-                    <button class="card__boton">Comprar</button>
+            <article class="col-md-6 d-flex align-items-center justify-content-center flex-column gap-5">
+                <div>
+                    <h3>Nuestros combos</h3>
+                    <h4>Al mejor precio.</h4>
                 </div>
-            </article>
-            <article class="col-md-4 mt-5 d-flex align-items-center justify-content-center">
-                <div class="card">
-                    <h3 class="card__titulo">Pizza + Gaseosa</h3>
-                    <img class="card__img" src="../img/promotres.jpg" alt="pizza y gaseosa">
-                    <h4 class="card__importe">$799</h4>
-                    <button class="card__boton">Comprar</button>
-                </div>
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center gap-5">
+                        2 Pizzas
+                        <span class="badge bg-dark rounded-pill">$1400</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center gap-5">
+                        3 Pizzas
+                        <span class="badge bg-dark rounded-pill">$2000</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center gap-5">
+                        4 Pizzas
+                        <span class="badge bg-dark rounded-pill">$2600</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center gap-5">
+                        2 Pizza + 6 empanadas
+                        <span class="badge bg-dark rounded-pill">$1900</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center gap-5">
+                        2 Pizzas + 12 empanadas
+                        <span class="badge bg-dark rounded-pill">$2500</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center gap-5">
+                        3 Pizzas + 12 empanadas
+                        <span class="badge bg-dark rounded-pill">$3000</span>
+                    </li>
+                </ul>
             </article>
         </section>
     </main>

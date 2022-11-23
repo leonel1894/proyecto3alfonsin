@@ -11,13 +11,8 @@ header .hero {
   background-position: top;
   background-size: cover;
   height: 100vh;
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  padding-right: 50px;
 }
 header .titulo {
-  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,7 +32,18 @@ header .titulo {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  padding: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.boxform .boxform__boton{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.boxform .boxform__boton:hover{
+  background-color: red;
 }
 
 footer {
@@ -85,6 +91,9 @@ footer .boxredes {
   padding-top: 5px;
   margin-top: 5px;
 }
+.card .card__texto {
+  margin: 5px;
+}
 .card .card__importe {
   font-size: 15px;
 }
@@ -94,6 +103,9 @@ footer .boxredes {
   margin-bottom: 5px;
   color: white;
   background-color: black;
+}
+.card .card__boton:hover{
+  background-color: red;
 }
 .card:hover {
   transform: scale(1.1) translateY(2px);

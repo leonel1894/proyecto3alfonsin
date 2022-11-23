@@ -14,29 +14,34 @@
     .card__img {
         max-width: 100%;
     }
-    
+
     .card__titulo {
         font-size: 20px;
         padding-top: 5px;
         margin-top: 5px;
     }
-    
+
+    .card__texto {
+        margin: 5px;
+    }
+
     .card__importe {
         font-size: 15px;
     }
-    
+
     .card__boton {
         border-radius: 10px;
         padding: 5px;
         margin-bottom: 5px;
         color: white;
         background-color: black;
+
+        &:hover {
+            background-color: red;
+        }
     }
 
     &:hover {
         transform: scale(1.1) translateY(2px);
     }
 }
-
-
-

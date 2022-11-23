@@ -10,7 +10,19 @@
         justify-content: center;
         align-items: center;
         gap: 10px;
+        padding: 10px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
 
+    .boxform__boton {
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        padding: 5px;
+        margin-bottom: 5px;
+
+        &:hover {
+            background-color: red;
+        }
+    }
 }
